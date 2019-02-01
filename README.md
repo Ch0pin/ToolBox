@@ -1,5 +1,5 @@
-# CookieStealer
-Cookie stealer
+# Toolbox
+Tools and scripts to help with pen testing
 
 **javascript.html** contains the java script code used to obtain the document cookie
 and post it to the log.php.
