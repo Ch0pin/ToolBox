@@ -1,12 +1,11 @@
 # Toolbox
 Tools and scripts to help with pen testing
 
-**javascript.html** contains the java script code used to obtain the document cookie
-and post it to the log.php.
+**Webshells** 
+Varius web shells
 
-**log.php** writes the cookies to a file for later use ;)
-Optionally you can use the base64JavascriptEncoded.html instead of javascript.html 
-since it uses base64 encoding to "hide" the log.php file from newbie eyes.
+**XSS**
+Document cookie stealer and php logger
 
 
 **transparentProxy.sh**
