@@ -9,5 +9,7 @@ Optionally you can use the base64JavascriptEncoded.html instead of javascript.ht
 since it uses base64 encoding to "hide" the log.php file from newbie eyes.
 
 
+**transparentProxy.sh**
+A script to create a transparent proxy 
 
 
