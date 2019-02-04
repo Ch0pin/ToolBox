@@ -2,7 +2,7 @@
 Tools and scripts to help with pen testing
 
 **Webshells** 
-Varius web shells
+Various web shells
 
 **XSS**
 Document cookie stealer and php logger
