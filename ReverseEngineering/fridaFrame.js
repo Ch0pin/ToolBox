@@ -3,7 +3,7 @@
 Java.perform(function () {
 
 
-	var mainactivity = Java.use("com.app.foo.bar"); //e
+	var mainactivity = Java.use("com.app.foo.bar");
 
 
 	mainactivity.foo.implementation = function() {
