@@ -3,3 +3,6 @@
 
 > backup from shell
 shell@phone$ bu 1 backup -apk app.package.name > /sdcard/backup.ab
+
+> grep gzip encoding
+grep -Rin "Content[-]Encoding.*gzip"
