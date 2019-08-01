@@ -1,3 +1,4 @@
+
 > adb backup extract 
 ( printf "\x1f\x8b\x08\x00\x00\x00\x00\x00" ; tail -c +25 backup.ab ) |  tar xfvz -
 
@@ -6,3 +7,50 @@ shell@phone$ bu 1 backup -apk app.package.name > /sdcard/backup.ab
 
 > grep gzip encoding
 grep -Rin "Content[-]Encoding.*gzip"
+
+
+
+---------------------------------------------Git commands------------------------------------------------------------
+
+Original arcticle: https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html
+
+
+Create a new branch and switch to it:
+
+$ git checkout -b amend-my-name
+Switched to a new branch 'amend-my-name'
+
+--------------------
+
+Check Status on current branch
+
+$ git status
+# On branch amend-my-name
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#   modified:   attendees_and_learners.rst
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+
+---------------
+Track all changes on current branch:
+
+$ git add *
+
+---------------------
+Commit changes
+
+$git -m "added x files" 
+
+--------------------
+Push the changes 
+
+$git push origin amend-my-name
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
