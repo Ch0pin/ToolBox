@@ -15,39 +15,33 @@ grep -Rin "Content[-]Encoding.*gzip"
 Original arcticle: https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html
 
 
-Create a new branch and switch to it:
-
-$ git checkout -b amend-my-name
-Switched to a new branch 'amend-my-name'
-
+Result: Create a new branch and switch to it:
+$ git checkout -b [branch-name]
 --------------------
 
-Check Status on current branch
-
+Result: Check Status on current branch
 $ git status
-# On branch amend-my-name
-# Changes not staged for commit:
-#   (use "git add <file>..." to update what will be committed)
-#   (use "git checkout -- <file>..." to discard changes in working directory)
-#
-#   modified:   attendees_and_learners.rst
-#
-no changes added to commit (use "git add" and/or "git commit -a")
-
----------------
-Track all changes on current branch:
-
-$ git add *
-
----------------------
-Commit changes
-
-$git -m "added x files" 
-
 --------------------
-Push the changes 
 
+Result: Track all changes on current branch:
+$ git add *
+---------------------
+
+Result: Commit changes
+$git -m "added x files" 
+--------------------
+
+Result: Push the changes 
 $git push origin amend-my-name
+---------------------
+
+Result: check existing branches
+$git branch
+---------------------
+
+Result: Swhitch between brances:
+$git checkout [branch-name]
+
 
 
 
