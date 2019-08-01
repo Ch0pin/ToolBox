@@ -8,7 +8,8 @@ shell@phone$ bu 1 backup -apk app.package.name > /sdcard/backup.ab
 > grep gzip encoding
 grep -Rin "Content[-]Encoding.*gzip"
 
-
+>Batch cmd-ing files after grep 
+grep -lr 'find_what' . | xargs -I '{}' code '{}'
 
 ---------------------------------------------Git commands------------------------------------------------------------
 
