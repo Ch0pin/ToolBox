@@ -1,3 +1,11 @@
+> list packages
+adb shell pm list packages
+
+> get application path
+adb shell pm path name.of.application
+
+> adb backup application data
+adb backup  -f myAndroidBackup.ab  com.corp.appName
 
 > adb backup extract 
 ( printf "\x1f\x8b\x08\x00\x00\x00\x00\x00" ; tail -c +25 backup.ab ) |  tar xfvz -
