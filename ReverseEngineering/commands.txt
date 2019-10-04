@@ -52,6 +52,14 @@ Result: Swhitch between brances:
 $git checkout [branch-name]
 
 
+-----------GREPing GOOGLE RESULTS-----------------------------
+
+1. SEARCH FOR THE KEYWORD AND APPLY THE &num parameter at the end of the search
+2. grep for emails like : grep -o '[^ ]*\.com' 
+3. sort --unique 
+
+
+
 
 
 ----------------------------------------------------------------------------------------------------------------------------
