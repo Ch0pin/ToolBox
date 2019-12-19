@@ -17,3 +17,10 @@ idaDiff.py
 
 		"Usage: %s <binary> <IDA.dif file> [revert]" % (argv[0])
 		"Applies given IDA .dif file to patch binary; use revert to revert patch."
+
+
+
+hosts -> test.com to see 127.0.0.1 
+Burp listen port 443 
+burp redirect real IP 
+Burp invisible proxy
